@@ -1,0 +1,91 @@
+
+.app{
+    width: 100vw;
+    height: 100vh;
+    display:flex; 
+    flex-direction: column;
+    align-items:center;
+    background-color: #22272E;
+    color: #fff;
+    padding: 50px;
+}
+.appInner{
+   max-width: 1200px;
+   width: 1200px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-control{
+    background-color: #22272E;
+    color:#fff
+}
+.form-control:hover{
+    background-color: #22272E;
+    color:#fff
+}
+.form-control:focus{
+    background-color: #22272E;
+    color:#fff
+}
+
+.todoInput{
+    width: 100%;
+}
+
+.todos{
+    width: 600px;
+    background-color: #2a313b;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.activeTasks{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.todoCard{
+    background-color: #22272E;
+    color: #fff;
+    border: 1px solid #4e4e4e;
+    width: 100%;
+    min-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.todoCardBody{
+display: flex;  
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.todoCardBodyIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoCardBodyIcon{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.dragactive{
+    background-color: #303741;
+}
+.dragcomplete{
+    background-color: #303741;
+}
+
+.drag{
+    -webkit-box-shadow: 2px 8px 24px -8px rgba(14, 14, 14, 0.81); 
+box-shadow: 2px 8px 24px -8px rgba(14, 14, 14, 0.81);
+}
